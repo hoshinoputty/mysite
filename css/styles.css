@@ -1,0 +1,44 @@
+/* common */
+body,header,main,footer,ul,li,h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+/* header */
+header {
+  display: flex;
+  line-height: 65px;
+  justify-content: space-between;
+}
+
+header nav {
+  width: 300px;
+}
+
+header nav ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+header ul li {
+  width: 100px;
+  text-align: center;
+}
+
+/* main */
+
+
+/* footer */
